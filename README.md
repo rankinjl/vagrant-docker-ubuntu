@@ -23,8 +23,8 @@ TO EXECUTE:
 - ```vagrant up```
 - after successful vagrant up, ```vagrant ssh``` into ubuntu VirtualBox VM
   - ```cd /vagrant/Docker```
-	- ```vagrant up```
-	- ```docker exec myapachecontainer service apache2 restart1```
+  - ```vagrant up```
+  - ```docker exec myapachecontainer service apache2 restart1```
 - See example web page in Windows host browser at 127.0.0.1:8080
 	
 - When done, ```vagrant destroy``` in /vagrant/Docker to get rid of container
