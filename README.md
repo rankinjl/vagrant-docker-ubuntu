@@ -15,6 +15,11 @@ PREREQUISITES: ON WINDOWS HOST COMPUTER, HAD TO:
 - Install VirtualBox (any version should work)
 - Install Git for Windows (version 2.12.2.windows.1)
 - Install Vagrant (version 1.9.4)
+
+IF STARTING FROM UBUNTU/LINUX:
+- Skip ```vagrant up``` from this directory that creates Ubuntu VM with Vagrant
+- Download Docker/, cd into Docker/, ```vagrant up```
+- ```docker exec myapachecontainer service apache2 restart1```
 	
 TO EXECUTE:
 - cd to directory with Vagrantfile for Ubuntu VM (in this directory)
